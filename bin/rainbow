@@ -2,4 +2,4 @@
 
 require_relative "../lib/rainbow_hash"
 
-puts "TEST"
+RainbowHash::Display.print(ARGV[0])
