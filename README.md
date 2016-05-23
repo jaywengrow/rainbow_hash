@@ -1,26 +1,30 @@
 # RainbowHash
 
-TODO: Write a gem description
+This simple gem gives you the ability to print out a structure of arrays and hashes in a pretty way straight from your terminal.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'rainbow_hash'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it by running the following command from your terminal:
 
     $ gem install rainbow_hash
 
+If you use Rbenv to manage your Ruby versions, you may have to run:
+
+    $ rbenv rehash
+
 ## Usage
 
-TODO: Write usage instructions here
+From your terminal, run the `rainbow` command followed by your data structure surrounded by quotation marks.
+
+For example, if you wanted to view the following hash from your terminal:
+
+    [TEST, {a: 1, [2, 3, 4]}]
+
+you would run:
+
+    rainbow "[TEST, {a: 1, [2, 3, 4]}]"
+
+And watch the results!
 
 ## Contributing
 
