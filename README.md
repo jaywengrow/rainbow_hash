@@ -1,6 +1,6 @@
 # RainbowHash
 
-This simple gem gives you the ability to print out a structure of arrays and hashes in a pretty way straight from your terminal.
+This simple gem takes a structure of arrays and hashes and produces a display in your terminal that makes it easy to parse with your eyes.
 
 ## Installation
 
@@ -16,7 +16,7 @@ If you use Rbenv to manage your Ruby versions, you may have to run:
 
 From your terminal, run the `rainbow` command followed by your data structure surrounded by quotation marks.
 
-For example, if you wanted to view the following hash in your terminal:
+For example, if you wanted to view the following array in your terminal:
 
     ['TEST', {a: 1, b: [2, 3, 4, {cow: 'moo'}]}]
 
