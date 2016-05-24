@@ -16,13 +16,13 @@ If you use Rbenv to manage your Ruby versions, you may have to run:
 
 From your terminal, run the `rainbow` command followed by your data structure surrounded by quotation marks.
 
-For example, if you wanted to view the following hash from your terminal:
+For example, if you wanted to view the following hash in your terminal:
 
     ['TEST', {a: 1, [2, 3, 4, {cow: 'moo'}]}]
 
 you would run:
 
-    rainbow "['TEST', {a: 1, [2, 3, 4, {cow: 'moo'}]}]"
+    $ rainbow "['TEST', {a: 1, [2, 3, 4, {cow: 'moo'}]}]"
 
 And watch the results!
 
