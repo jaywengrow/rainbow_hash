@@ -18,7 +18,7 @@ From your terminal, run the `rainbow` command followed by your data structure su
 
 For example, if you wanted to view the following hash from your terminal:
 
-    [TEST, {a: 1, [2, 3, 4]}]
+    [TEST, {a: 1, [2, 3, 4, {cow: 'moo'}]}]
 
 you would run:
 
