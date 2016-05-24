@@ -22,7 +22,7 @@ For example, if you wanted to view the following hash from your terminal:
 
 you would run:
 
-    rainbow "[TEST, {a: 1, [2, 3, 4]}]"
+    rainbow "[TEST, {a: 1, [2, 3, 4, {cow: 'moo'}]}]"
 
 And watch the results!
 
