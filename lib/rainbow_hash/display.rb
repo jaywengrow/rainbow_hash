@@ -39,7 +39,11 @@ module RainbowHash
     end
 
     def colorize(char)
-      "\e[#{@color_stack}m#{char}\e[0m"
+      if beginning_delimeter?(char) || ending_delimeter?(char)
+        "\e[#{@color_stack}m\e[1m#{char}\e[0m"
+      else
+        "\e[#{@color_stack}m#{char}\e[0m"
+      end
     end
 
     def increment_level
