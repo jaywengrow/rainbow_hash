@@ -3,7 +3,7 @@ module RainbowHash
   class Display
 
     def self.print(string)
-      self.new(string).output
+      puts self.new(string).output
     end
 
     def initialize(string)
@@ -25,7 +25,7 @@ module RainbowHash
           new_string += "\n" + (" " * @indentation_level)
         end
       end
-      puts new_string
+      new_string
     end
 
     private
