@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["jaywngrw@gmail.com"]
   spec.summary       = %q{Run your complex hashes and arrays through this gem to see a pretty output of it in your terminal.}
   spec.description   = %q{Run your complex hashes and arrays through this gem to see a pretty output of it in your terminal.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/jaywengrow/rainbow_hash"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
