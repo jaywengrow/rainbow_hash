@@ -8,7 +8,7 @@ module RainbowHash
 
     def initialize(string)
       @string = string
-      @color_stack = 30
+      @color_stack = 30 # 
       @indentation_level = 0
     end
 
@@ -40,9 +40,9 @@ module RainbowHash
 
     def colorize(char)
       if beginning_delimeter?(char) || ending_delimeter?(char)
-        "\e[#{@color_stack}m\e[1m#{char}\e[0m"
+        "\e[#{@color_stack}m\e[1m#{char}\e[0m" # bold version
       else
-        "\e[#{@color_stack}m#{char}\e[0m"
+        "\e[#{@color_stack}m#{char}\e[0m" # non-bold version
       end
     end
 
